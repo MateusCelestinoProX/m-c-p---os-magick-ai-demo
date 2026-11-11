@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>MAGICK A.I (Interactive Demo) - Altar & Templo Digital</title>
+  <meta name="description" content="Showcase Demo: Plataforma digital de Magia do Caos com 44 Entidades, Carregador de Sigilos com React Bits WebGL Shaders e Ciberdivinação Oracular 3D via GSAP (Web SPA & Android Capacitor).">
+  
+  <!-- Tailwind CSS Local (Offline First) com Fallback -->
+  <script src="assets/js/vendor/tailwindcss.js"></script>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@200;300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons Local Bundle -->
+  <script src="assets/js/vendor/lucide.min.js"></script>
+
+  <!-- GSAP 3D Animation Engine Local Bundle -->
+  <script src="assets/js/vendor/gsap.min.js"></script>
+
+  <!-- Favicon & App Icon -->
+  <link rel="icon" type="image/png" href="assets/img/icon.png">
+  <link rel="apple-touch-icon" href="assets/img/icon.png">
+
+  <!-- CSS Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-vanta text-platinum">
+
+  <!-- Definições SVG Compartilhadas para o Verso Premium das Cartas -->
+  <svg id="magick-card-defs" style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true">
+    <defs>
+      <linearGradient id="cardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffd56b"/>
+        <stop offset="28%" stop-color="#fff8d6"/>
+        <stop offset="70%" stop-color="#d49e24"/>
+        <stop offset="100%" stop-color="#91640a"/>
+      </linearGradient>
+      <linearGradient id="cardRed" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ff3366"/>
+        <stop offset="100%" stop-color="#b3002d"/>
+      </linearGradient>
+      <radialGradient id="caosCore" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ff1a40" stop-opacity="0.85"/>
+        <stop offset="50%" stop-color="#ff5500" stop-opacity="0.45"/>
+        <stop offset="100%" stop-color="#140207" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="bgVelvet" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#280410"/>
+        <stop offset="50%" stop-color="#0b0105"/>
+        <stop offset="100%" stop-color="#1d020a"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- ===================================================================
+       TELA BASE DE APRESENTAÇÃO - PORTFOLIO SHOWCASE DEMO EXPERIENCE
+       =================================================================== -->
+  <aside id="demo-intro-overlay" aria-label="Apresentação da Demonstração">
+    <div class="demo-intro-card">
+      <div class="demo-emblem-container">
+        <div class="demo-emblem-ring"></div>
+        <div class="demo-emblem-ring-outer"></div>
+        <div class="demo-emblem-core">✶</div>
+      </div>
+
+      <div class="demo-badge-pill">
+        <span class="demo-badge-dot"></span>
+        <span>Portfolio Showcase Demo</span>
+      </div>
+
+      <div>
+        <h1 class="demo-title">MAGICK A.I</h1>
+        <p class="demo-subtitle" style="margin-top: 0.5rem;">
+          Altar & Templo Digital de Magia do Caos • Arquitetura Híbrida Web SPA e Android Capacitor com Aceleração 3D, Shaders WebGL e Síntese Binaural.
+        </p>
+      </div>
+
+      <div class="demo-tech-badges-grid">
+        <span class="demo-tech-badge">⚡ 44 Entidades do Grimório</span>
+        <span class="demo-tech-badge">🌀 6 Shaders WebGL React Bits</span>
+        <span class="demo-tech-badge">🃏 Cyberdivinação 3D com GSAP</span>
+        <span class="demo-tech-badge">🔊 Síntese Sonora Web Audio 528Hz</span>
+        <span class="demo-tech-badge">📱 Android Capacitor Ready</span>
+        <span class="demo-tech-badge">🛡️ Mock Data Clean</span>
+      </div>
+
+      <div class="demo-actions-container">
+        <button class="demo-primary-enter-btn" id="demo-enter-btn">
+          <span>✦ ENTRAR NA DEMO DO SOFTWARE ✦</span>
+        </button>
+
+        <div style="display: flex; gap: 0.5rem; width: 100%; justify-content: center;">
+          <button class="demo-secondary-btn" id="demo-quick-div-btn">
+            🃏 Acessar Direto Cyberdivinação 3D
+          </button>
+        </div>
+
+        <div class="demo-progress-wrapper">
+          <div class="demo-progress-track">
+            <div class="demo-progress-fill" id="demo-progress-fill"></div>
+          </div>
+          <span class="demo-progress-caption">Transição suave automática em instantes (ou pressione Enter / Espaço)</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Container do Background Cinematográfico e Canvas da Chaosphere -->
+  <div id="cinematic-bg-container"></div>
+  <canvas id="chaosphere-canvas"></canvas>
+
+  <!-- Container Principal SPA -->
+  <div id="app">
+
+    <!-- Header & Navegação Mobile-First Responsivo -->
+    <header class="main-header" id="main-header">
+      <div class="header-brand-container">
+        <a class="brand-logo" data-view="home">
+          <div class="logo-icon">✶</div>
+          <span class="brand-name">MAGICK A.I</span>
+        </a>
+      </div>
+
+      <div class="header-right-nav">
+        <nav class="header-nav-container">
+          <ul class="nav-links">
+            <li><button class="nav-btn active" data-view="home" id="nav-btn-home"><span>🏠 Home</span></button></li>
+            <li><button class="nav-btn" data-view="servers" id="nav-btn-servers"><span>🔮 Servidores</span></button></li>
+            <li><button class="nav-btn" data-view="charger" id="nav-btn-charger"><span>⚡ Carregador</span></button></li>
+            <li><button class="nav-btn" data-view="divination" id="nav-btn-divination"><span>🃏 Cyberdivinação</span></button></li>
+          </ul>
+        </nav>
+
+        <div class="header-nav-divider"></div>
+
+        <!-- Botão do Widget de Configuração de Backgrounds -->
+        <button class="bg-widget-btn" id="bg-widget-toggle-btn" title="Configurar Fundo Cinematográfico">
+          <span>🎨</span>
+          <span>Backgrounds</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Widget Modal de Configuração de Backgrounds -->
+    <div class="bg-widget-modal" id="bg-widget-modal">
+      <div class="bg-widget-header">
+        <h3 class="bg-widget-title">🎨 Fundo Cinematográfico</h3>
+        <button class="modal-close-btn" id="bg-widget-close-btn" style="position: static; width: 28px; height: 28px; font-size: 0.9rem;">✕</button>
+      </div>
+
+      <div class="form-group" style="margin-bottom: 1.25rem;">
+        <label class="form-label">Selecione a Pasta de Imagens</label>
+        <div class="bg-cat-options-grid" id="bg-categories-options-container"></div>
+      </div>
+
+      <!-- Controle de Escurecimento -->
+      <div class="bg-slider-group">
+        <div class="bg-slider-header">
+          <span>Escurecimento (Dim)</span>
+          <span id="bg-dim-value-text">50%</span>
+        </div>
+        <input type="range" id="bg-dim-slider" class="bg-range-input" min="0" max="0.9" step="0.05" value="0.5">
+      </div>
+
+      <!-- Controle de Desfoque (Blur) -->
+      <div class="bg-slider-group">
+        <div class="bg-slider-header">
+          <span>Desfoque (Blur)</span>
+          <span id="bg-blur-value-text">0px</span>
+        </div>
+        <input type="range" id="bg-blur-slider" class="bg-range-input" min="0" max="20" step="1" value="0">
+      </div>
+    </div>
+
+    <!-- Área de Conteúdo Dinâmico -->
+    <main class="content-container">
+
+      <!-- ===================================================================
+           SEÇÃO: HOME / HERO
+           =================================================================== -->
+      <section class="view-section active" id="view-home">
+        <div class="hero-header relative overflow-hidden py-12">
+          <!-- ASCII Sphere Canvas -->
+          <canvas id="ascii-canvas" class="absolute inset-0 z-0 opacity-40 pointer-events-none"></canvas>
+
+          <div class="relative z-10">
+            <span class="hero-subtitle">TEMPLO DIGITAL & ALTAR DE MAGIA DO CAOS</span>
+            <h1 class="hero-title">A Ciência da Vontade & Tecnologia Oculta</h1>
+            <p class="hero-description">
+              Bem-vindo ao <strong>MAGICK A.I</strong> — o ecossistema digital minimalista Vanta Black para a prática da Magia do Caos. 
+              Conecte-se com os 40 Servidores de Tommie Kelly e os 4 Diabos (Jerdehl, Harven, Vharmon e Kranvoc), energize seus sigilos em gnose hipnótica e consulte a Ciberdivinação Oracular 3D.
+            </p>
+          </div>
+        </div>
+
+        <!-- Grid de Funcionalidades Mestre -->
+        <div class="features-grid">
+          
+          <!-- Opção 1 Card -->
+          <div class="feature-card" data-navigate="servers" id="card-feature-servers">
+            <div>
+              <div class="feature-icon">🔮</div>
+              <h2 class="feature-title">1. Servidores & Diabos</h2>
+              <p class="feature-desc">
+                Explore os 40 Servidores de Tommie Kelly mais os 4 Diabos oficiais (Jerdehl, Harven, Vharmon e Kranvoc com artes próprias). Sigilos transparentes PNG, artes em alta definição e orientações detalhadas de Divinação e Evocação Mágica.
+              </p>
+            </div>
+            <button class="btn-action">Explorar Servidores →</button>
+          </div>
+
+          <!-- Opção 2 Card -->
+          <div class="feature-card" data-navigate="charger" id="card-feature-charger">
+            <div>
+              <div class="feature-icon">⚡</div>
+              <h2 class="feature-title">2. Carregador de Sigilos</h2>
+              <p class="feature-desc">
+                Espaço imersivo para gnose e energização. Faça upload de até 3 sigilos ou escolha entre os Servidores, alternando entre React Bits WebGL Canvas Shaders e vídeos hipnóticos do YouTube em loop.
+              </p>
+            </div>
+            <button class="btn-action">Iniciar Energização →</button>
+          </div>
+
+          <!-- Opção 3 Card -->
+          <div class="feature-card" data-navigate="divination" id="card-feature-divination">
+            <div>
+              <div class="feature-icon">🃏</div>
+              <h2 class="feature-title">3. Cyberdivinação</h2>
+              <p class="feature-desc">
+                Oráculo digital 3D exclusivo dos 40 Servidores. 5s de iluminação subconsciente, ocultação em massa e embaralhamento caótico 3D via GSAP para desarmar a mente e revelar o conselho ideal.
+              </p>
+            </div>
+            <button class="btn-action">Consultar Oráculo →</button>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           OPÇÃO 1: SERVIDORES DO CAOS (CATÁLOGO & BUSCA)
+           =================================================================== -->
+      <section class="view-section" id="view-servers">
+        <div class="controls-bar">
+          <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" id="search-servers" placeholder="Buscar servidor por nome (ex: Adventureiro, Bruxa, Jerdehl, Harven, Vharmon, Kranvoc)...">
+          </div>
+
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">Todos (44)</button>
+            <button class="filter-btn" data-filter="servants">40 Servidores</button>
+            <button class="filter-btn" data-filter="devils">4 Diabos</button>
+          </div>
+        </div>
+
+        <!-- Grid de Servidores -->
+        <div class="servers-grid" id="servers-grid"></div>
+      </section>
+
+      <!-- ===================================================================
+           OPÇÃO 2: CARREGADOR DE SIGILOS (SIGIL CHARGING ENGINE)
+           =================================================================== -->
+      <section class="view-section" id="view-charger">
+        <div class="charger-layout">
+          
+          <!-- Painel de Controles da Esquerda -->
+          <div class="glass-panel control-panel">
+            <h2 class="panel-title">⚡ Energizador de Sigilos</h2>
+
+            <!-- Upload Customizado -->
+            <div class="form-group">
+              <label class="form-label">Upload de Sigilos Próprios (Máx 3)</label>
+              <div class="file-upload-dropzone" id="charger-dropzone">
+                <div class="upload-icon" style="font-size: 2rem; color: var(--accent-red);">📁</div>
+                <div class="upload-text">Arraste ou clique para enviar imagens (PNG, JPG, SVG)</div>
+              </div>
+              <div class="sigil-upload-helper" style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.4rem; line-height: 1.35; text-align: center;">
+                ✨ <strong>Purificação Automática Ativa:</strong> Remove automaticamente o fundo branco de folhas de papel ou fundos pretos para o glifo brilhar no Altar.
+              </div>
+              <input type="file" id="sigil-file-input" accept="image/*" multiple style="display: none;">
+            </div>
+
+            <!-- Seleção de Servidores da Lista -->
+            <div class="form-group">
+              <label class="form-label">Ou Selecione Sigilos da Egrégora</label>
+              <select class="select-input" id="charger-server-select"></select>
+              <button class="btn-action btn-secondary" id="charger-add-server-btn" style="margin-top: 0.5rem; width: 100%;">
+                + Adicionar Sigilo Selecionado
+              </button>
+            </div>
+
+            <!-- Previsualização dos Sigilos Ativos -->
+            <div class="form-group">
+              <label class="form-label">Sigilos no Altar</label>
+              <div class="selected-sigils-preview" id="selected-sigils-preview"></div>
+            </div>
+
+            <!-- Seletor de 12 Cores do Sigilo para o Altar -->
+            <div class="form-group">
+              <div style="display: flex; align-items: center; justify-content: space-between;">
+                <label class="form-label" style="margin-bottom: 0;">Cor do Sigilo no Altar (12 Cores)</label>
+                <span id="active-sigil-color-name" style="font-size: 0.8rem; color: #ffffff; font-weight: 700;">Branco Puro</span>
+              </div>
+              <div class="sigil-color-palette" id="sigil-color-palette"></div>
+            </div>
+
+            <!-- React Bits Canvas Shaders & All 9 YouTube Videos -->
+            <div class="form-group">
+              <label class="form-label">Fundo Hipnótico de Gnose</label>
+              <select class="select-input" id="hypnotic-pattern-select">
+                <optgroup label="React Bits WebGL Canvas Shaders">
+                  <option value="balatro">🌀 Balatro Shader Canvas</option>
+                  <option value="ferrofluid">💧 Ferrofluid Shader Canvas</option>
+                  <option value="metaballs">🔮 MetaBalls Shader Canvas</option>
+                  <option value="plasma">🌌 Plasma Shader Canvas</option>
+                  <option value="splashcursor">🌊 SplashCursor Fluid Canvas</option>
+                  <option value="prismaticburst">💥 PrismaticBurst Shader Canvas</option>
+                </optgroup>
+                <optgroup label="Vídeos Hipnóticos do YouTube (9 Opções)">
+                  <option value="yt_1">🎥 Vídeo Hipnótico 1 (Portal Geométrico)</option>
+                  <option value="yt_2">🎥 Vídeo Hipnótico 2 (Vórtice Transe)</option>
+                  <option value="yt_3">🎥 Vídeo Hipnótico 3 (Ondas Quânticas)</option>
+                  <option value="yt_4">🎥 Vídeo Hipnótico 4 (Geometria Sagrada)</option>
+                  <option value="yt_5">🎥 Vídeo Hipnótico 5 (M5vi8vNKq0E)</option>
+                  <option value="yt_6">🎥 Vídeo Hipnótico 6 (wjQq0nSGS28)</option>
+                  <option value="yt_7">🎥 Vídeo Hipnótico 7 (hOgVAYpHPCc)</option>
+                  <option value="yt_8">🎥 Vídeo Hipnótico 8 (uP2W7trXBPQ)</option>
+                  <option value="yt_9">🎥 Vídeo Hipnótico 9 (XrDUTpeGW0A)</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <!-- Botões de Controle de Transe -->
+            <div class="form-group">
+              <button class="btn-action" id="toggle-charge-btn" style="width: 100%;">
+                ⚡ Iniciar Energização de Sigilos
+              </button>
+            </div>
+
+          </div>
+
+          <!-- Palco de Exibição / Stage de Energização -->
+          <div class="charging-stage-container" id="charging-stage-container">
+            <iframe id="hypnotic-yt-iframe" class="hypnotic-yt-iframe" allow="autoplay"></iframe>
+            <canvas class="hypnotic-canvas" id="hypnotic-stage-canvas"></canvas>
+            
+            <!-- Sigilos Centralizados Sobrepostos -->
+            <div class="sigils-overlay-layer" id="sigils-overlay-layer">
+              <div style="color: var(--text-muted); text-align: center; font-family: var(--font-display);">
+                Adicione até 3 sigilos para iniciar a energização de gnose.
+              </div>
+            </div>
+
+            <!-- Controles do Palco -->
+            <div class="stage-overlay-controls">
+              <button class="btn-action btn-secondary" id="toggle-fullscreen-btn">⛶ Tela Cheia do Altar</button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           OPÇÃO 3: CYBERDIVINAÇÃO (ENGINE DE CIBERDIVINAÇÃO 3D)
+           =================================================================== -->
+      <section class="view-section" id="view-divination">
+        <div class="divination-container" id="divination-ritual">
+          
+          <!-- Cyber HUD do Altar de Divinação (Ultra-compacto e responsivo) -->
+          <header class="divination-hud" id="divination-hud">
+            <div class="divination-hud-info">
+              <div class="divination-hud-badge">
+                <span class="hud-pulse-dot"></span>
+                <span class="status-title" id="divination-status-title">🃏 Altar de Ciberdivinação</span>
+              </div>
+              <p class="status-subtitle" id="divination-status-subtitle">
+                Os 40 Servidores Sagrados revelados no Altar. Escolha o método e inicie o ritual.
+              </p>
+            </div>
+
+            <div class="divination-hud-controls" id="divination-ui">
+              <select class="select-input divination-spread-select" id="divination-spread-select">
+                <option value="1">🔮 1 Carta ("A Resposta Direta")</option>
+                <option value="3">🔮 3 Cartas ("Passado, Presente e Futuro")</option>
+                <option value="5">🔮 5 Cartas ("Visão Ampliada da Vontade")</option>
+              </select>
+              
+              <button class="btn-action divination-start-btn" id="start-divination-btn">
+                ✨ Iniciar Ritual
+              </button>
+            </div>
+          </header>
+
+          <!-- Viewport / Canvas 3D do Altar (100% visível, sem cortes) -->
+          <div class="deck-viewport" id="divination-deck-viewport">
+            <div id="cards-container"></div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 2rem; border-top: 1px solid var(--border-glass); color: var(--text-muted); font-size: 0.85rem; background: rgba(0, 0, 0, 0.95);">
+      MAGICK A.I © 2026 — Altar Digital & Templo de Magia do Caos. Desenvolvido sob o protocolo V.L.A.E.G.
+    </footer>
+
+  </div>
+
+  <!-- Modal Interativo de Detalhes do Servidor (Opção 1) -->
+  <div class="modal-backdrop" id="server-modal">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" title="Fechar">✕</button>
+      
+      <!-- Coluna Esquerda: Imagens -->
+      <div class="modal-left">
+        <img id="modal-card-img" class="modal-card-img" src="" alt="Carta do Servidor">
+        
+        <div class="modal-sigil-box">
+          <div class="modal-sigil-title">Sigilo do Servidor</div>
+          <img id="modal-sigil-img" class="modal-sigil-img" src="" alt="Sigilo">
+        </div>
+
+        <button class="btn-action" id="modal-add-charger-btn" style="width: 100%;">
+          ⚡ Carregar Sigilo no Energizador
+        </button>
+      </div>
+
+      <!-- Coluna Direita: Informações e Textos -->
+      <div class="modal-right">
+        <div>
+          <h2 class="modal-title-pt" id="modal-title-pt"></h2>
+          <span class="modal-title-en" id="modal-title-en"></span>
+        </div>
+
+        <div style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6;" id="modal-summary"></div>
+
+        <div class="modal-section-box">
+          <div class="modal-section-title divination">🔮 Divinação</div>
+          <div class="modal-text" id="modal-divination"></div>
+        </div>
+
+        <div class="modal-section-box magick">
+          <div class="modal-section-title magick">⚡ Orientação Mágica (Evocação / Banimento)</div>
+          <div class="modal-text" id="modal-magick"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de Leitura Oracular (FASE 5) -->
+  <div class="modal-backdrop" id="reading-result">
+    <div class="modal-container" style="max-width: 1000px; grid-template-columns: 1fr;">
+      <div class="modal-sticky-header">
+        <button class="modal-close-btn" id="modal-close-reading-btn" title="Fechar" aria-label="Fechar Leitura">✕</button>
+      </div>
+      <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #fff; text-align: center; margin-bottom: 1.25rem;">
+        ✨ Leitura Oracular Revelada
+      </h2>
+      <div id="reading-cards" class="reading-results-panel"></div>
+      <div class="reading-modal-actions-bar">
+        <button class="btn-action" id="reading-reset-btn" style="padding: 0.65rem 1.4rem; background: linear-gradient(135deg, var(--accent-red), var(--accent-orange));">
+          🔄 Novo Ritual no Altar
+        </button>
+        <button class="btn-action" id="reading-nav-servers-btn" style="padding: 0.65rem 1.2rem; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2);">
+          🔮 Grimório de Servidores
+        </button>
+        <button class="btn-action" id="reading-nav-charger-btn" style="padding: 0.65rem 1.2rem; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2);">
+          ⚡ Carregador de Sigilos
+        </button>
+        <button class="btn-action" id="reading-nav-home-btn" style="padding: 0.65rem 1.2rem; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.2);">
+          🏠 Início (Home)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Dock de Demonstração Interativa (Showcase Controller) -->
+  <aside id="demo-floating-dock" aria-label="Controles da Demonstração">
+    <div class="demo-dock-badge">
+      <span class="demo-badge-dot"></span>
+      <span>DEMO</span>
+    </div>
+    <button class="demo-dock-btn" id="demo-replay-btn" title="Rever Apresentação Suave">
+      <span>⟲</span> <span>Rever Intro</span>
+    </button>
+    <button class="demo-dock-btn" id="demo-tour-btn" title="Tour Guiado pelos Módulos">
+      <span>🚀</span> <span>Tour Guiado</span>
+    </button>
+    <button class="demo-dock-btn" id="demo-specs-btn" title="Especificações Técnicas da Demo">
+      <span>⚙️</span> <span>Specs</span>
+    </button>
+  </aside>
+
+  <!-- Modal de Especificações Técnicas da Demo -->
+  <div class="modal-backdrop" id="demo-specs-modal">
+    <div class="modal-container" style="max-width: 650px; grid-template-columns: 1fr;">
+      <div class="modal-sticky-header">
+        <button class="modal-close-btn" id="demo-close-specs-btn" title="Fechar">✕</button>
+      </div>
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <span class="demo-badge-pill">Arquitetura de Software</span>
+        <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #fff; margin-top: 0.5rem;">
+          MAGICK A.I • Showcase Specs
+        </h2>
+        <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 0.25rem;">
+          Demonstração de portfólio preparada com dados limpos e isolados.
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 1rem; font-size: 0.9rem; color: #ddd; line-height: 1.6;">
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem;">
+          <strong style="color: #ff5500;">🌐 Versão Web SPA & PWA:</strong>
+          <p style="color: #aaa; font-size: 0.85rem; margin-top: 0.2rem;">Construído em JavaScript ES6 Modular puro, Tailwind CSS local e GSAP 3D, sem dependências de build obrigatórias.</p>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem;">
+          <strong style="color: #ff0033;">📱 Versão Mobile Android:</strong>
+          <p style="color: #aaa; font-size: 0.85rem; margin-top: 0.2rem;">Empacotado nativamente com Capacitor 8 (Gradle/Android Studio) com suporte a botão de hardware, splash screen e aceleração GPU.</p>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem;">
+          <strong style="color: #ffcc00;">🌀 Gráficos & Shaders:</strong>
+          <p style="color: #aaa; font-size: 0.85rem; margin-top: 0.2rem;">6 Shaders WebGL interativos (React Bits port), animação em Canvas da Esfera do Caos e Esfera ASCII em 60fps.</p>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 1rem;">
+          <strong style="color: #00ff66;">🔒 Mock Data & Privacidade:</strong>
+          <p style="color: #aaa; font-size: 0.85rem; margin-top: 0.2rem;">Totalmente higienizado. Nenhuma chave secreta, credencial sensível ou dados pessoais proprietários inclusos na demo.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts JavaScript -->
+  <script src="assets/js/background_engine.js"></script>
+  <script src="assets/js/hypnotic_canvas.js"></script>
+  <script src="assets/js/servers.js"></script>
+  <script src="assets/js/sigil_charger.js"></script>
+  <script src="assets/js/cyber_divination.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/demo_showcase.js"></script>
+
+  <!-- Script para Lucide Icons e ASCII Canvas Sphere -->
+  <script>
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+
+    function initAsciiSphere() {
+      const CANVAS = document.getElementById("ascii-canvas");
+      if(!CANVAS) return;
+      const CTX = CANVAS.getContext("2d");
+      const CHARS = [];
+      const MAX_CHARS = 180;
+      const SEPARATION = 1;
+      let ww, wh, camera;
+
+      class Vector {
+        constructor(x, y, z) { this.x = x; this.y = y; this.z = z; }
+        rotate(dir, ang) {
+          const X = this.x, Y = this.y, Z = this.z;
+          const SIN = Math.sin(ang), COS = Math.cos(ang);
+          if (dir === "x") { this.y = Y * COS - Z * SIN; this.z = Y * SIN + Z * COS; } 
+          else if (dir === "y") { this.x = X * COS - Z * SIN; this.z = X * SIN + Z * COS; }
+        }
+        project() {
+          const ZP = this.z + camera.z;
+          const DIV = ZP / wh;
+          const XP = (this.x + camera.x) / DIV;
+          const YP = (this.y + camera.y) / DIV;
+          const CENTER = [ww / 2, wh / 2];
+          return [XP + CENTER[0], YP + CENTER[1], ZP];
+        }
+      }
+
+      class Char {
+        constructor(letter, pos) { this.letter = letter; this.pos = pos; }
+        rotate(dir, ang) { this.pos.rotate(dir, ang); }
+        render() {
+          const PIXEL = this.pos.project();
+          const XP = PIXEL[0], YP = PIXEL[1];
+          const MAX_SIZE = 45;
+          const SIZE = (1 / PIXEL[2] * MAX_SIZE) | 0;
+          const BRIGHTNESS = SIZE / MAX_SIZE;
+          const COL = `rgba(255, 0, 51, ${BRIGHTNESS * 0.45})`;
+          CTX.beginPath();
+          CTX.fillStyle = COL;
+          CTX.font = SIZE + "px monospace";
+          CTX.fillText(this.letter, XP, YP);
+          CTX.fill();
+          CTX.closePath();
+        }
+      }
+
+      function signedRandom() { return Math.random() - Math.random(); }
+
+      let time = 0;
+      let animId = null;
+      let isHomeActive = true;
+
+      function loop() {
+        if (!isHomeActive || document.hidden) {
+          animId = null;
+          return;
+        }
+
+        CTX.clearRect(0, 0, ww, wh);
+        for (let i = 0; i < CHARS.length; i++) {
+          const DX = 0.004 * Math.sin(time * 0.001);
+          const DY = 0.004 * Math.cos(time * 0.001);
+          CHARS[i].rotate("x", DX);
+          CHARS[i].rotate("y", DY);
+          CHARS[i].render();
+        }
+        ++time;
+        animId = requestAnimationFrame(loop);
+      }
+
+      function resumeLoopIfNeeded() {
+        if (isHomeActive && !document.hidden && !animId) {
+          animId = requestAnimationFrame(loop);
+        }
+      }
+
+      function setDim() {
+        if (!CANVAS.parentElement) return;
+        ww = CANVAS.parentElement.clientWidth;
+        wh = CANVAS.parentElement.clientHeight;
+        const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+        CANVAS.width = (ww * dpr) | 0;
+        CANVAS.height = (wh * dpr) | 0;
+        CTX.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      setDim();
+      camera = new Vector(0, 0, SEPARATION + 1);
+      const charCount = window.innerWidth < 640 ? 100 : MAX_CHARS;
+      for (let i = 0; i < charCount; i++) {
+        const CHARACTER = String.fromCharCode((Math.random() * 93 + 34) | 0);
+        CHARS.push(new Char(CHARACTER, new Vector(signedRandom() * SEPARATION, signedRandom() * SEPARATION, signedRandom() * SEPARATION)));
+      }
+
+      window.addEventListener('resize', () => {
+        setDim();
+      });
+
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          if (animId) {
+            cancelAnimationFrame(animId);
+            animId = null;
+          }
+        } else {
+          resumeLoopIfNeeded();
+        }
+      });
+
+      window.addEventListener('viewchange', (e) => {
+        isHomeActive = (e.detail && e.detail.view === 'home');
+        if (isHomeActive) {
+          resumeLoopIfNeeded();
+        } else if (animId) {
+          cancelAnimationFrame(animId);
+          animId = null;
+        }
+      });
+
+      loop();
+    }
+
+    window.addEventListener('load', () => {
+      initAsciiSphere();
+    });
+  </script>
+
+</body>
+</html>

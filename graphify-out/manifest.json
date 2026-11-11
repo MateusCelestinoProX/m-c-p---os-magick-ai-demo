@@ -1,0 +1,1568 @@
+{
+  "assets/data/backgrounds.json": {
+    "mtime": 1794411625.6383116,
+    "seen": 1794412132.178016,
+    "ast_hash": "9b72fc2a2d60ffa8620a5cc435b34fc2",
+    "semantic_hash": ""
+  },
+  "assets/data/servers.json": {
+    "mtime": 1794411625.6387389,
+    "seen": 1794412132.178016,
+    "ast_hash": "473eb51ec4c971f4d5ce7282169bfa0f",
+    "semantic_hash": ""
+  },
+  "assets/js/app.js": {
+    "mtime": 1794411625.635292,
+    "seen": 1794412132.1780171,
+    "ast_hash": "a4f8a5883dd6cb0fd9490e0d45ee84df",
+    "semantic_hash": ""
+  },
+  "assets/js/background_engine.js": {
+    "mtime": 1794411625.634703,
+    "seen": 1794412132.178018,
+    "ast_hash": "ab858d975cedc0de3d3cac361579d6ad",
+    "semantic_hash": ""
+  },
+  "assets/js/cyber_divination.js": {
+    "mtime": 1794411625.6350331,
+    "seen": 1794412132.178019,
+    "ast_hash": "7a6e55ca62c13b83356d795c68922199",
+    "semantic_hash": ""
+  },
+  "assets/js/hypnotic_canvas.js": {
+    "mtime": 1794411625.6373637,
+    "seen": 1794412132.1780212,
+    "ast_hash": "ed35bc1ad99134bccf33901ab24cf4dd",
+    "semantic_hash": ""
+  },
+  "assets/js/servers.js": {
+    "mtime": 1794411625.6344035,
+    "seen": 1794412132.178022,
+    "ast_hash": "f2a6c9fbdfc8e87e173d496f38430cd9",
+    "semantic_hash": ""
+  },
+  "assets/js/sigil_charger.js": {
+    "mtime": 1794411625.6340046,
+    "seen": 1794412132.178022,
+    "ast_hash": "cfec4431a452814b34c23cf2f9c0d414",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1794411625.4212165,
+    "seen": 1794412132.178027,
+    "ast_hash": "6adbb4e299536cf1cc39df736698e251",
+    "semantic_hash": ""
+  },
+  "findings.md": {
+    "mtime": 1794411625.5306673,
+    "seen": 1794412132.178028,
+    "ast_hash": "575058924b932a9214401837bc97ef46",
+    "semantic_hash": ""
+  },
+  "gemini.md": {
+    "mtime": 1794411625.531066,
+    "seen": 1794412132.178029,
+    "ast_hash": "8e787e7ec90b078077a19be4a3da4cf5",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1794412046.2630293,
+    "seen": 1794412132.17803,
+    "ast_hash": "8f8f202e51e65555b6589b21fa94f18c",
+    "semantic_hash": ""
+  },
+  "progress.md": {
+    "mtime": 1794411625.4215455,
+    "seen": 1794412132.17803,
+    "ast_hash": "c9e3bea3f155c9f468f48baab1f6e8ec",
+    "semantic_hash": ""
+  },
+  "task_plan.md": {
+    "mtime": 1794411625.421969,
+    "seen": 1794412132.1780312,
+    "ast_hash": "0a58b08514191ff8a84f1d3c03635466",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/adventurer.jpg": {
+    "mtime": 1794411625.5824647,
+    "seen": 1794412132.1780531,
+    "ast_hash": "dd2c16cc0ae26a0f9632ebd6f399a1d2",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/balancer.jpg": {
+    "mtime": 1794411625.5700603,
+    "seen": 1794412132.1780531,
+    "ast_hash": "31e6ad66082c3940c1ce2fae152f574a",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/carnal.jpg": {
+    "mtime": 1794411625.5660653,
+    "seen": 1794412132.1780539,
+    "ast_hash": "ba0a8620798571c0520a1e96ac468d6b",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/chaste.jpg": {
+    "mtime": 1794411625.571423,
+    "seen": 1794412132.1780548,
+    "ast_hash": "f23dcc8096cbbaaaa1e4e18094209a92",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/conductor.jpg": {
+    "mtime": 1794411625.580393,
+    "seen": 1794412132.178056,
+    "ast_hash": "85237fa02bbec5c5cf32c2afff0428f4",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/contemplator.jpg": {
+    "mtime": 1794411625.5665803,
+    "seen": 1794412132.178056,
+    "ast_hash": "40e98d17f9bcb515b3848c62e5c92843",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/dancer.jpg": {
+    "mtime": 1794411625.5875018,
+    "seen": 1794412132.178057,
+    "ast_hash": "ced07e8964c8a1004a8a8f9b75bd8b2d",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/dead.jpg": {
+    "mtime": 1794411625.581781,
+    "seen": 1794412132.178058,
+    "ast_hash": "a22c865552ad5b325c0aadc2291774ff",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/depleted.jpg": {
+    "mtime": 1794411625.5710804,
+    "seen": 1794412132.178058,
+    "ast_hash": "a6d36dce0dea8d4008c7b8701b1a8447",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/desperate.jpg": {
+    "mtime": 1794411625.5862873,
+    "seen": 1794412132.178059,
+    "ast_hash": "e3bd647bcd1ae2613a53065c684b86f3",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/devil.jpg": {
+    "mtime": 1794411625.581424,
+    "seen": 1794412132.17806,
+    "ast_hash": "3fc534b10c929489390c460cd28e69bc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/devil_of_bad_health.jpg": {
+    "mtime": 1794411625.578836,
+    "seen": 1794412132.178061,
+    "ast_hash": "3fc534b10c929489390c460cd28e69bc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/devil_of_debt.jpg": {
+    "mtime": 1794411625.5707507,
+    "seen": 1794412132.178062,
+    "ast_hash": "3fc534b10c929489390c460cd28e69bc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/devil_of_ignorance.jpg": {
+    "mtime": 1794411625.5723107,
+    "seen": 1794412132.178062,
+    "ast_hash": "3fc534b10c929489390c460cd28e69bc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/devil_of_isolation.jpg": {
+    "mtime": 1794411625.570389,
+    "seen": 1794412132.1780632,
+    "ast_hash": "3fc534b10c929489390c460cd28e69bc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/explorer.jpg": {
+    "mtime": 1794411625.5683553,
+    "seen": 1794412132.1780639,
+    "ast_hash": "a8793b383260cef0ccd288bf85130334",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/eye.jpg": {
+    "mtime": 1794411625.5832155,
+    "seen": 1794412132.1780648,
+    "ast_hash": "6369c54f8c8576fdb0b0fae282c5fd16",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/father.jpg": {
+    "mtime": 1794411625.587025,
+    "seen": 1794412132.1780648,
+    "ast_hash": "71bee441dbbff288bcfa7e58263b1f1a",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/fixer.jpg": {
+    "mtime": 1794411625.5866468,
+    "seen": 1794412132.178066,
+    "ast_hash": "b33a90a661d139fc6eb480ffa9d54023",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/fortunate.jpg": {
+    "mtime": 1794411625.5747175,
+    "seen": 1794412132.178067,
+    "ast_hash": "fdfbe645e5812294cfb74d164a3411c5",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/gate_keeper.jpg": {
+    "mtime": 1794411625.5783026,
+    "seen": 1794412132.178068,
+    "ast_hash": "f8c492a7897f125e74ab9391c37c5c2e",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/giver.jpg": {
+    "mtime": 1794411625.5687218,
+    "seen": 1794412132.178068,
+    "ast_hash": "fab0aaec8f80957d5726946b9045a767",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/guru.jpg": {
+    "mtime": 1794411625.5878656,
+    "seen": 1794412132.1780689,
+    "ast_hash": "99c36d1da035618b3588dec5e829e4b8",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/harven.jpg": {
+    "mtime": 1794411625.5851343,
+    "seen": 1794412132.17807,
+    "ast_hash": "7cd7a0639148096acd24f6365e59da41",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/healer.jpg": {
+    "mtime": 1794411625.5754342,
+    "seen": 1794412132.17807,
+    "ast_hash": "48335be02dd081d9d860a26fffc37686",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/idea.jpg": {
+    "mtime": 1794411625.583599,
+    "seen": 1794412132.178071,
+    "ast_hash": "d092f8023608c5067d16141e4e61fed1",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/jerdehl.jpg": {
+    "mtime": 1794411625.5671432,
+    "seen": 1794412132.178072,
+    "ast_hash": "e2fb3525758cac29c831aacedbf75e55",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/kranvoc.jpg": {
+    "mtime": 1794411625.5768971,
+    "seen": 1794412132.1780732,
+    "ast_hash": "d4df214e9a3f61f8ab0675bebc5d8f11",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/levitator.jpg": {
+    "mtime": 1794411625.5839865,
+    "seen": 1794412132.1780732,
+    "ast_hash": "0c5ad589600ada4650df32eb8163644f",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/librarian.jpg": {
+    "mtime": 1794411625.5717664,
+    "seen": 1794412132.1780741,
+    "ast_hash": "49d8c6e3bf4a65605fb59720ca1eb0d4",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/lovers.jpg": {
+    "mtime": 1794411625.5726628,
+    "seen": 1794412132.1780748,
+    "ast_hash": "c0ec8cd1047f8a6d60dad4bb5b2f22ac",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/master.jpg": {
+    "mtime": 1794411625.5758612,
+    "seen": 1794412132.1780748,
+    "ast_hash": "5407150ff16315df7f8fa3c021c11503",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/media.jpg": {
+    "mtime": 1794411625.5847652,
+    "seen": 1794412132.1780758,
+    "ast_hash": "206c28e30e1c269ba35d182bcceee99f",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/messenger.jpg": {
+    "mtime": 1794411625.5810983,
+    "seen": 1794412132.178077,
+    "ast_hash": "ebe0bcfd1e5cdc0d259b79447d2ae0a6",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/monk.jpg": {
+    "mtime": 1794411625.5796008,
+    "seen": 1794412132.178077,
+    "ast_hash": "56418a12d123f43a313b15e11e86e3cc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/moon.jpg": {
+    "mtime": 1794411625.5792544,
+    "seen": 1794412132.178078,
+    "ast_hash": "9b9725f6c867579c78da1afebe8fe7ad",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/mother.jpg": {
+    "mtime": 1794411625.5762253,
+    "seen": 1794412132.178079,
+    "ast_hash": "1b4fa0bbff1acbb1fd5e19a92af5dfdc",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/opposer.jpg": {
+    "mtime": 1794411625.5697055,
+    "seen": 1794412132.178079,
+    "ast_hash": "594fd6328cc8d4d8d60bd0bfc5b30f31",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/planet.jpg": {
+    "mtime": 1794411625.5693517,
+    "seen": 1794412132.17808,
+    "ast_hash": "54d842f340655e10d55ca0a958c774a3",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/protector.jpg": {
+    "mtime": 1794411625.567662,
+    "seen": 1794412132.178081,
+    "ast_hash": "ab79867d2b5b0aba2577c85bb1924705",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/protester.jpg": {
+    "mtime": 1794411625.5731726,
+    "seen": 1794412132.178081,
+    "ast_hash": "0bc05ef0134bb5cd8eb7c3a06742d279",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/road_opener.jpg": {
+    "mtime": 1794411625.5821166,
+    "seen": 1794412132.178082,
+    "ast_hash": "e167cb5cdbc05dc8e05b5daa1430eea5",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/saint.jpg": {
+    "mtime": 1794411625.5679958,
+    "seen": 1794412132.1780832,
+    "ast_hash": "49c141dbc3417db3c71b66155ceca990",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/seer.jpg": {
+    "mtime": 1794411625.5807214,
+    "seen": 1794412132.1780841,
+    "ast_hash": "cf20e9cbb85d4fc196fce1061892fad8",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/sun.jpg": {
+    "mtime": 1794411625.5843878,
+    "seen": 1794412132.1780841,
+    "ast_hash": "a1739d27ef3f3c77bf99b85025191f11",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/thinker.jpg": {
+    "mtime": 1794411625.5799873,
+    "seen": 1794412132.178085,
+    "ast_hash": "9ae35533ff93fac3695c9d5f68450cfd",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/vharmon.jpg": {
+    "mtime": 1794411625.5859196,
+    "seen": 1794412132.1780858,
+    "ast_hash": "54be6e7bedbe1907c919a5bd226d90e6",
+    "semantic_hash": ""
+  },
+  "assets/images/cards/witch.jpg": {
+    "mtime": 1794411625.5776396,
+    "seen": 1794412132.1780858,
+    "ast_hash": "6eab8a7b3fc8fc5a08d88335dfd9e087",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/adventurer.jpg": {
+    "mtime": 1794411625.6225064,
+    "seen": 1794412132.178087,
+    "ast_hash": "0f646c4dd4c941743bde607653b89ee7",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/adventurer.png": {
+    "mtime": 1794411625.6214082,
+    "seen": 1794412132.178088,
+    "ast_hash": "47068f583542f47f6542ef302a7a4db6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/balancer.jpg": {
+    "mtime": 1794411625.5975811,
+    "seen": 1794412132.178089,
+    "ast_hash": "6a0aa35f83aae87fca9cd48eeb1760e6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/balancer.png": {
+    "mtime": 1794411625.5979471,
+    "seen": 1794412132.178089,
+    "ast_hash": "a2f98be7b684e0ae8d9be29828daec6e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/carnal.jpg": {
+    "mtime": 1794411625.589252,
+    "seen": 1794412132.17809,
+    "ast_hash": "09d6ced114da3435b38d6de38afa6988",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/carnal.png": {
+    "mtime": 1794411625.58891,
+    "seen": 1794412132.178091,
+    "ast_hash": "d72e5d3e1083f62d62b9b8ac9f0be556",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/chaste.jpg": {
+    "mtime": 1794411625.6002812,
+    "seen": 1794412132.178091,
+    "ast_hash": "14c18e08700a1177fb9eb0ab48152b32",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/chaste.png": {
+    "mtime": 1794411625.602655,
+    "seen": 1794412132.178092,
+    "ast_hash": "37e99c3105c7da856283e2a8f63ed0dd",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/conductor.jpg": {
+    "mtime": 1794411625.6164289,
+    "seen": 1794412132.178093,
+    "ast_hash": "6f6f03405a4da11c36d6c04634a9072e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/conductor.png": {
+    "mtime": 1794411625.6151493,
+    "seen": 1794412132.1780941,
+    "ast_hash": "d5af5188a4fbfbb3a34c2aa30bd99f29",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/contemplator.jpg": {
+    "mtime": 1794411625.591733,
+    "seen": 1794412132.178095,
+    "ast_hash": "70b9a134aad56de1564bb620ded6a49e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/contemplator.png": {
+    "mtime": 1794411625.589744,
+    "seen": 1794412132.178095,
+    "ast_hash": "f125428f50af6265ed67e5253f31ce0a",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/dancer.jpg": {
+    "mtime": 1794411625.6327899,
+    "seen": 1794412132.178096,
+    "ast_hash": "aa29394a8a242109e2702a2eaa8356c6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/dancer.png": {
+    "mtime": 1794411625.6330273,
+    "seen": 1794412132.178097,
+    "ast_hash": "e8606d3ca018349a1ef26b42e4d5ea8c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/dead.jpg": {
+    "mtime": 1794411625.620914,
+    "seen": 1794412132.178098,
+    "ast_hash": "aac8afa3f8795d3aacef1c36df6085bf",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/dead.png": {
+    "mtime": 1794411625.6191623,
+    "seen": 1794412132.178098,
+    "ast_hash": "9fb858f12dab24d5780978b1c19f1590",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/depleted.jpg": {
+    "mtime": 1794411625.5997608,
+    "seen": 1794412132.178099,
+    "ast_hash": "151c3f610021329a742f6a9386c3a674",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/depleted.png": {
+    "mtime": 1794411625.5992212,
+    "seen": 1794412132.1780999,
+    "ast_hash": "4bd1045b9b8d275a2bc95c6d6849897e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/desperate.jpg": {
+    "mtime": 1794411625.6307733,
+    "seen": 1794412132.178101,
+    "ast_hash": "728b99570f4aad9fd9fb6b9b3c9535db",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/desperate.png": {
+    "mtime": 1794411625.6297748,
+    "seen": 1794412132.178101,
+    "ast_hash": "876cca2e08024449aec2b732c89ce14f",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil.jpg": {
+    "mtime": 1794411625.6194582,
+    "seen": 1794412132.178102,
+    "ast_hash": "5a5f2fc763b18fccaca4b7403bcd4926",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil.png": {
+    "mtime": 1794411625.6202059,
+    "seen": 1794412132.178103,
+    "ast_hash": "078656b4c44f3b508a83604efeb2fc14",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_bad_health.jpg": {
+    "mtime": 1794411625.6118906,
+    "seen": 1794412132.1781042,
+    "ast_hash": "5a5f2fc763b18fccaca4b7403bcd4926",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_bad_health.png": {
+    "mtime": 1794411625.6115773,
+    "seen": 1794412132.1781042,
+    "ast_hash": "078656b4c44f3b508a83604efeb2fc14",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_debt.jpg": {
+    "mtime": 1794411625.5989733,
+    "seen": 1794412132.178105,
+    "ast_hash": "5a5f2fc763b18fccaca4b7403bcd4926",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_debt.png": {
+    "mtime": 1794411625.599993,
+    "seen": 1794412132.178106,
+    "ast_hash": "078656b4c44f3b508a83604efeb2fc14",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_ignorance.jpg": {
+    "mtime": 1794411625.6029515,
+    "seen": 1794412132.1781068,
+    "ast_hash": "5a5f2fc763b18fccaca4b7403bcd4926",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_ignorance.png": {
+    "mtime": 1794411625.60326,
+    "seen": 1794412132.178108,
+    "ast_hash": "078656b4c44f3b508a83604efeb2fc14",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_isolation.jpg": {
+    "mtime": 1794411625.5986457,
+    "seen": 1794412132.178109,
+    "ast_hash": "5a5f2fc763b18fccaca4b7403bcd4926",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/devil_of_isolation.png": {
+    "mtime": 1794411625.5983493,
+    "seen": 1794412132.17811,
+    "ast_hash": "078656b4c44f3b508a83604efeb2fc14",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/explorer.jpg": {
+    "mtime": 1794411625.5956302,
+    "seen": 1794412132.17811,
+    "ast_hash": "415776c304acaf73db99a839521713ee",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/explorer.png": {
+    "mtime": 1794411625.595071,
+    "seen": 1794412132.178111,
+    "ast_hash": "3a2a1ee2681d5cc4c6ac6620ed38c7b6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/eye.jpg": {
+    "mtime": 1794411625.6249847,
+    "seen": 1794412132.178112,
+    "ast_hash": "6dc4e06b348a47f36ae89e7b71c583db",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/eye.png": {
+    "mtime": 1794411625.6232717,
+    "seen": 1794412132.178112,
+    "ast_hash": "812815801aa82e3bb804bb78eea067c9",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/father.jpg": {
+    "mtime": 1794411625.6321108,
+    "seen": 1794412132.178113,
+    "ast_hash": "e789bf2cea1945f3c78482121db77386",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/father.png": {
+    "mtime": 1794411625.6311693,
+    "seen": 1794412132.178114,
+    "ast_hash": "6de0aed1c8b28ae451e817d2f53654be",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/fixer.jpg": {
+    "mtime": 1794411625.631778,
+    "seen": 1794412132.178114,
+    "ast_hash": "e66ae36aafe0391c1fd8837df69c16fb",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/fixer.png": {
+    "mtime": 1794411625.6315043,
+    "seen": 1794412132.1781151,
+    "ast_hash": "ce8bfd83f091d3e4d579481e953c279d",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/fortunate.jpg": {
+    "mtime": 1794411625.6045427,
+    "seen": 1794412132.178116,
+    "ast_hash": "dea558a90de95295431d60cabbd67d03",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/fortunate.png": {
+    "mtime": 1794411625.6048412,
+    "seen": 1794412132.178117,
+    "ast_hash": "7cb6743679702bf0104363d6d683ba3d",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/gate_keeper.jpg": {
+    "mtime": 1794411625.6098583,
+    "seen": 1794412132.178117,
+    "ast_hash": "1cd7056f53788b44d17be7dcc4c1233b",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/gate_keeper.png": {
+    "mtime": 1794411625.6102426,
+    "seen": 1794412132.178118,
+    "ast_hash": "4a120bbce054b29c0753506cfea233d4",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/giver.jpg": {
+    "mtime": 1794411625.5960088,
+    "seen": 1794412132.178119,
+    "ast_hash": "2acebd8bbb96159da9f7746277d4aeee",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/giver.png": {
+    "mtime": 1794411625.5963335,
+    "seen": 1794412132.178119,
+    "ast_hash": "8a55b51eb205140442d2145171508e75",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/guru.jpg": {
+    "mtime": 1794411625.6332352,
+    "seen": 1794412132.17812,
+    "ast_hash": "fcf56a66b9443bc9e671cc08c999ccc8",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/guru.png": {
+    "mtime": 1794411625.633461,
+    "seen": 1794412132.1781209,
+    "ast_hash": "379b5fc75100677e5cf17e701b823192",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/harven.png": {
+    "mtime": 1794411625.628862,
+    "seen": 1794412132.178122,
+    "ast_hash": "d7af00f2e68bb9d42bdfec3eca16eb0c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/healer.jpg": {
+    "mtime": 1794411625.6056352,
+    "seen": 1794412132.178123,
+    "ast_hash": "f301c1c5ed2e9e1a61c2ad42746f2e78",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/healer.png": {
+    "mtime": 1794411625.6053686,
+    "seen": 1794412132.178124,
+    "ast_hash": "1e0208c598d3a0ae8b3e2bd09cc1ed92",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/idea.jpg": {
+    "mtime": 1794411625.6257524,
+    "seen": 1794412132.178124,
+    "ast_hash": "4a585062365baa6bf12bda061052a4e2",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/idea.png": {
+    "mtime": 1794411625.6254315,
+    "seen": 1794412132.1781251,
+    "ast_hash": "8f99c14ac2d9c7647f8b3ec075dbbb0f",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/jerdehl.png": {
+    "mtime": 1794411625.5925317,
+    "seen": 1794412132.178127,
+    "ast_hash": "0fa04b8f81bfc8540f75472892229705",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/kranvoc.png": {
+    "mtime": 1794411625.6095722,
+    "seen": 1794412132.1781278,
+    "ast_hash": "f0e2677a0ed138c8804be14c80dceb4e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/levitator.jpg": {
+    "mtime": 1794411625.6267111,
+    "seen": 1794412132.178129,
+    "ast_hash": "8cd314dddd7b6fd273efe070d5f25d72",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/levitator.png": {
+    "mtime": 1794411625.6264136,
+    "seen": 1794412132.17813,
+    "ast_hash": "cf275025e41d885ff1182948fa6fc745",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/librarian.jpg": {
+    "mtime": 1794411625.6018043,
+    "seen": 1794412132.17813,
+    "ast_hash": "e18731855db217f35d4377718d1c978c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/librarian.png": {
+    "mtime": 1794411625.6006083,
+    "seen": 1794412132.1781309,
+    "ast_hash": "8e89b223c3ed6959d00a0a40296be9c6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/lovers.jpg": {
+    "mtime": 1794411625.60351,
+    "seen": 1794412132.178132,
+    "ast_hash": "a7849d0504589fe0f80bca3a8125d2c8",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/lovers.png": {
+    "mtime": 1794411625.6043258,
+    "seen": 1794412132.178132,
+    "ast_hash": "062bc12a9754f1c4f734a7afa40c8b17",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/master.jpg": {
+    "mtime": 1794411625.6058474,
+    "seen": 1794412132.178133,
+    "ast_hash": "6303ebb90d140308126add13677cad71",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/master.png": {
+    "mtime": 1794411625.6050682,
+    "seen": 1794412132.178134,
+    "ast_hash": "85cccedf8287e16a716dac5fc45a9895",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/media.jpg": {
+    "mtime": 1794411625.6279275,
+    "seen": 1794412132.1781352,
+    "ast_hash": "44d25439803c6ac590c6d91ca7e762a3",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/media.png": {
+    "mtime": 1794411625.6282518,
+    "seen": 1794412132.1781352,
+    "ast_hash": "83c2e35074e62214510734c1833bb49f",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/messenger.jpg": {
+    "mtime": 1794411625.6184607,
+    "seen": 1794412132.178136,
+    "ast_hash": "0a65327fc2c0006a46864002ba7a99dd",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/messenger.png": {
+    "mtime": 1794411625.6187823,
+    "seen": 1794412132.178137,
+    "ast_hash": "beaf64d64940f16da7745ad4a63f4eaf",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/monk.jpg": {
+    "mtime": 1794411625.6138146,
+    "seen": 1794412132.178138,
+    "ast_hash": "a477e9f15b0a8a87e7c788ff9e2664e7",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/monk.png": {
+    "mtime": 1794411625.6142688,
+    "seen": 1794412132.178138,
+    "ast_hash": "b9060b343c111b7af774991f4e887eaf",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/moon.jpg": {
+    "mtime": 1794411625.6129427,
+    "seen": 1794412132.178139,
+    "ast_hash": "1c9bbc2a40cad61b474499b4ef297a7e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/moon.png": {
+    "mtime": 1794411625.6123366,
+    "seen": 1794412132.17814,
+    "ast_hash": "4d38254df562023d599691f15e247946",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/mother.jpg": {
+    "mtime": 1794411625.6060576,
+    "seen": 1794412132.1781409,
+    "ast_hash": "f2f8bd7d1ef98a2d8994b5b5560a408c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/mother.png": {
+    "mtime": 1794411625.6089175,
+    "seen": 1794412132.1781409,
+    "ast_hash": "7e7ca4941305ea78b679a9d6579e2d2d",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/opposer.jpg": {
+    "mtime": 1794411625.5973597,
+    "seen": 1794412132.178142,
+    "ast_hash": "e6e220bd1e3d9147e692665f3c628ced",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/opposer.png": {
+    "mtime": 1794411625.5965767,
+    "seen": 1794412132.178143,
+    "ast_hash": "6387c97413c41451597a3d85d2e308c0",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/planet.jpg": {
+    "mtime": 1794411625.5967956,
+    "seen": 1794412132.178143,
+    "ast_hash": "8878060042d3467fddf865defa7544f6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/planet.png": {
+    "mtime": 1794411625.5971375,
+    "seen": 1794412132.178144,
+    "ast_hash": "2e01e5352e530df58a0f2b65ee0ce731",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/protector.jpg": {
+    "mtime": 1794411625.594121,
+    "seen": 1794412132.178145,
+    "ast_hash": "c2b3bd4abfff98193bc4a5323bbb5c22",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/protector.png": {
+    "mtime": 1794411625.5937548,
+    "seen": 1794412132.1781461,
+    "ast_hash": "0a5bc6100957586a46784bbc26149c98",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/protester.jpg": {
+    "mtime": 1794411625.603741,
+    "seen": 1794412132.1781461,
+    "ast_hash": "f0677e086a42fdb719cc983a27befd95",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/protester.png": {
+    "mtime": 1794411625.6039968,
+    "seen": 1794412132.178147,
+    "ast_hash": "9dbf281d475559404b0b47a67716f02c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/road_opener.jpg": {
+    "mtime": 1794411625.6222208,
+    "seen": 1794412132.178148,
+    "ast_hash": "60397277c45e2e2e730c1f827f8a7dd8",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/road_opener.png": {
+    "mtime": 1794411625.6219487,
+    "seen": 1794412132.1781492,
+    "ast_hash": "0fd1eed4f6ffbfaebe2e61cd59cb7d9e",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/saint.jpg": {
+    "mtime": 1794411625.5944352,
+    "seen": 1794412132.1781492,
+    "ast_hash": "90484e7423efae9499f725f17cd673ef",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/saint.png": {
+    "mtime": 1794411625.5933652,
+    "seen": 1794412132.17815,
+    "ast_hash": "da24926edf3af2d9a176e0c8fa823bb1",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/seer.jpg": {
+    "mtime": 1794411625.6169412,
+    "seen": 1794412132.178151,
+    "ast_hash": "43b0696d8b4155dc71ac36f92e40ec1b",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/seer.png": {
+    "mtime": 1794411625.6177342,
+    "seen": 1794412132.178151,
+    "ast_hash": "2b2a56ab9df41fe77f2396560adbdadd",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/sun.jpg": {
+    "mtime": 1794411625.627295,
+    "seen": 1794412132.1781518,
+    "ast_hash": "7f6d25ae49428d7d91c7b02778eb4970",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/sun.png": {
+    "mtime": 1794411625.6276348,
+    "seen": 1794412132.178153,
+    "ast_hash": "4f95b5c6c6c1175f2c1330d260659c71",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/thinker.jpg": {
+    "mtime": 1794411625.6148386,
+    "seen": 1794412132.178154,
+    "ast_hash": "434701c22dc1af30bf2bea6f252a3e5b",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/thinker.png": {
+    "mtime": 1794411625.6154802,
+    "seen": 1794412132.178154,
+    "ast_hash": "364aaeb22175513340f5c47170bd2b1c",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/vharmon.png": {
+    "mtime": 1794411625.629185,
+    "seen": 1794412132.1781561,
+    "ast_hash": "331f980372f8a4501cbca4c46fa112a6",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/witch.jpg": {
+    "mtime": 1794411625.6092339,
+    "seen": 1794412132.1781561,
+    "ast_hash": "b16126f08c1faff76716f24457c521f0",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/witch.png": {
+    "mtime": 1794411625.6079593,
+    "seen": 1794412132.178157,
+    "ast_hash": "d1b5ddeb552291a2f9b30b6ba6f9bea9",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/01cf923b40124aca09c611aae4472da3.webp": {
+    "mtime": 1794411625.4380453,
+    "seen": 1794412132.178159,
+    "ast_hash": "c7f8b172b23d6145ecb358247c4594a3",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/1a5f6cabaab34b9ef7b2b496e9ed5e3a.webp": {
+    "mtime": 1794411625.4373217,
+    "seen": 1794412132.178159,
+    "ast_hash": "3a604d9d3c36c049667236b6aa54fe96",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/3f42d59081a724c9f1a93d7864633073.jpg": {
+    "mtime": 1794411625.4384294,
+    "seen": 1794412132.1781602,
+    "ast_hash": "f9b0124f397606059749dd5b9a7e6e15",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/443538587cf89e5d710c0e37013a0bc3.webp": {
+    "mtime": 1794411625.440747,
+    "seen": 1794412132.178161,
+    "ast_hash": "9b686b2a153e697249383467f5c70c70",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/6749d5e84da725084f89788476e79006.webp": {
+    "mtime": 1794411625.4390934,
+    "seen": 1794412132.178161,
+    "ast_hash": "9e7a99bee700647d72e1bb9ceaadb51b",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/c1e25e5be96aeaabae4e13b377d6156e.webp": {
+    "mtime": 1794411625.439495,
+    "seen": 1794412132.1781619,
+    "ast_hash": "9feb1a39225ee84f9267f912974facae",
+    "semantic_hash": ""
+  },
+  "backgrounds/caosphere/f6eed768aeae0875b9b6391d4c3158ec.webp": {
+    "mtime": 1794411625.4387765,
+    "seen": 1794412132.178163,
+    "ast_hash": "2a7c1401ee5368a66ebe484af436ae91",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/0508abd96471f097ef27467f3ec66453.jpg": {
+    "mtime": 1794411625.4835124,
+    "seen": 1794412132.178163,
+    "ast_hash": "0e915f890f3d49853bde5905e55a8680",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/0800f1c906b4376ce42a1f448f9a604c.webp": {
+    "mtime": 1794411625.4781532,
+    "seen": 1794412132.178164,
+    "ast_hash": "ceda32fe58dc6e2556585a7761d35ad0",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/0e6d23762e8ed4580284231ce6f83128.jpg": {
+    "mtime": 1794411625.4818945,
+    "seen": 1794412132.178165,
+    "ast_hash": "a13c737ec48bb9bba58b9e0a3f94e21d",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/1bf702aecdb9c85b94ffdef676a3a67d.jpg": {
+    "mtime": 1794411625.4647267,
+    "seen": 1794412132.178165,
+    "ast_hash": "3db944c30e7457995a73a454c070915c",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/2782cb0349b7c39017b4d1fa683dc595.jpg": {
+    "mtime": 1794411625.484096,
+    "seen": 1794412132.178166,
+    "ast_hash": "d1aabcbf2eca437425af6dc40a107598",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/66a7ef301af4720894d5e61245a56567.webp": {
+    "mtime": 1794411625.4797,
+    "seen": 1794412132.178167,
+    "ast_hash": "d0d03cebfd22f4eb3960068b97787ad9",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/9c6acc9400cf58594c0743fffa28d726.webp": {
+    "mtime": 1794411625.4810302,
+    "seen": 1794412132.178167,
+    "ast_hash": "b21649d9378a88e5c9e019035f7337cb",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/a5024f7ad58dad4c1fc182c8e5a6dc4d.webp": {
+    "mtime": 1794411625.4805188,
+    "seen": 1794412132.178168,
+    "ast_hash": "e2ad70eb9c7d669dcd9fcca191a3a466",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/db1dd6c7010f199bef7f75059a3b01af.jpg": {
+    "mtime": 1794411625.4761612,
+    "seen": 1794412132.178169,
+    "ast_hash": "4e26ad508225bc1a6e5c58aeb7b85503",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/download (1).png": {
+    "mtime": 1794411625.464163,
+    "seen": 1794412132.178169,
+    "ast_hash": "94328e821842bd30c8148a006e86877c",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/download.png": {
+    "mtime": 1794411625.4721963,
+    "seen": 1794412132.1781702,
+    "ast_hash": "6d4a6e56c41c006982d26f78d647ee95",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/eb88ab0cbc19b0fba3e1026a89d57525.webp": {
+    "mtime": 1794411625.4656773,
+    "seen": 1794412132.178171,
+    "ast_hash": "fb103290701e65759adfdc59f5dc1473",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/ed3a82c8d56027877675e8b02e17ab1c.webp": {
+    "mtime": 1794411625.4771318,
+    "seen": 1794412132.178171,
+    "ast_hash": "7010f696c52e17bcf237e1d265d6dffc",
+    "semantic_hash": ""
+  },
+  "backgrounds/celestial/f7523e541443a22985ba22fa9c8c1628.webp": {
+    "mtime": 1794411625.4787076,
+    "seen": 1794412132.1781719,
+    "ast_hash": "dfc6bc5c3d12113841ec8070d7118213",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/003c5d86014cd8aa1ff30dbe1543c0da.webp": {
+    "mtime": 1794411625.4593937,
+    "seen": 1794412132.1781728,
+    "ast_hash": "29677a9b86d4fd2b5a510ab4c0adb856",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/2941f755fb862e37906a44287051a29b.jpg": {
+    "mtime": 1794411625.4576743,
+    "seen": 1794412132.178174,
+    "ast_hash": "6cdb674b3a54fb40f68a52ad2524af33",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/4019dad1b409b39d0e77d22a3af7cbd5.jpg": {
+    "mtime": 1794411625.4609175,
+    "seen": 1794412132.178174,
+    "ast_hash": "be17aea205d880d5cb60de4d2d984715",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/4ced75c3cc110512fb1445850336c051.jpg": {
+    "mtime": 1794411625.4589813,
+    "seen": 1794412132.178175,
+    "ast_hash": "0e68b0f7c90dccc372262ecfc81e308f",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/55577d69b9f3e5bce953d1006e000e27.jpg": {
+    "mtime": 1794411625.4544632,
+    "seen": 1794412132.178176,
+    "ast_hash": "d8afa7479165f02dad4dafd9fbd351e0",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/60ac8e782e9bd57f4c386ff619a2bca3.jpg": {
+    "mtime": 1794411625.4464061,
+    "seen": 1794412132.178176,
+    "ast_hash": "2b1714aa548aa16c8f73aab8de021a52",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/81edc7e3ce05d8ce025d3db98731c76e.webp": {
+    "mtime": 1794411625.4564185,
+    "seen": 1794412132.178177,
+    "ast_hash": "e5b4b0a7f741216a91d774f62ecd4fcc",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/865bfdae0556a3e7d540499b74bc636b.webp": {
+    "mtime": 1794411625.4597616,
+    "seen": 1794412132.178178,
+    "ast_hash": "2ab728c7db0a77eb648b33ce85250688",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/894c7f039743ea297bea379bbb3801dd.webp": {
+    "mtime": 1794411625.4548962,
+    "seen": 1794412132.178178,
+    "ast_hash": "39e2b7acd17db42835ea7481a9a34263",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/985cbc203999f0bf52a6e0a56a6c8470.jpg": {
+    "mtime": 1794411625.458525,
+    "seen": 1794412132.178179,
+    "ast_hash": "ab3fd79b2ae1c6fdea82a4904e83e7af",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/aed2d5e7646eb8dc475a8eb04b41c907.jpg": {
+    "mtime": 1794411625.446938,
+    "seen": 1794412132.17818,
+    "ast_hash": "8fc90f346b7dbf2319710e3de533cb99",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/b5e9cabd02febdd2d132dc4611ae6fcc.webp": {
+    "mtime": 1794411625.4605122,
+    "seen": 1794412132.17818,
+    "ast_hash": "289b16ebf2bd124f388645a97514f70b",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/bb57108e16d5d2d914cda886c1a1d76a.webp": {
+    "mtime": 1794411625.450706,
+    "seen": 1794412132.1781812,
+    "ast_hash": "7a36d54da767366493cb68d7e171eb28",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/bd8ffaced7851d06a0d1a49fb2979f18.webp": {
+    "mtime": 1794411625.4541101,
+    "seen": 1794412132.178182,
+    "ast_hash": "ec20ec5cc5f70dcab63d8ad11f25d139",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/d5a0e88d3b71e0646b0ec036bfb96d07.jpg": {
+    "mtime": 1794411625.4448535,
+    "seen": 1794412132.1781828,
+    "ast_hash": "27318177e4db1f27f644209885ca19c3",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/d6cf878e41d8fbdd101f5b6610de328f.jpg": {
+    "mtime": 1794411625.4537103,
+    "seen": 1794412132.1781828,
+    "ast_hash": "d6cf878e41d8fbdd101f5b6610de328f",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/download (1).png": {
+    "mtime": 1794411625.4443045,
+    "seen": 1794412132.178184,
+    "ast_hash": "065d95c70a7ba532a8182dc4a6d0ace8",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/download.png": {
+    "mtime": 1794411625.450091,
+    "seen": 1794412132.178185,
+    "ast_hash": "f25ee651e6a07072eb20365599a04fcb",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/e60ea63e7d141bcf4d5ffb2704fb0362.jpg": {
+    "mtime": 1794411625.4601412,
+    "seen": 1794412132.178185,
+    "ast_hash": "eb1f277a08b337b0e32b328aef880600",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/ea9eebbebf50356423886adeafccfe67.webp": {
+    "mtime": 1794411625.451193,
+    "seen": 1794412132.178186,
+    "ast_hash": "8d545d12af31f78e6f69db56794c129b",
+    "semantic_hash": ""
+  },
+  "backgrounds/horror/eb1f458de5cf75ab8d02c1b6dce8f0c9.jpg": {
+    "mtime": 1794411625.4530492,
+    "seen": 1794412132.178187,
+    "ast_hash": "23e7468614697d180e32a90ebd30b885",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/2bc8fe565448bd031b7ccb23d33d88f0.webp": {
+    "mtime": 1794411625.4364314,
+    "seen": 1794412132.178187,
+    "ast_hash": "021a9080d994e4aaef349206c32f1535",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/2e51b81dadc1ceffadde3fcd0b3ae281.jpg": {
+    "mtime": 1794411625.429292,
+    "seen": 1794412132.178188,
+    "ast_hash": "e51228bd73180e447c57570138082e5e",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/3796a0463a3fbaae0751d95aede1de6c.jpg": {
+    "mtime": 1794411625.4259782,
+    "seen": 1794412132.178189,
+    "ast_hash": "2197ff60dec35371f7b145ac3174240a",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/42f98e79224e8f3bd37aeb898b6a64d7.jpg": {
+    "mtime": 1794411625.4355552,
+    "seen": 1794412132.178189,
+    "ast_hash": "52c1dc885975a946310c10f3da2571c1",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/4e7783d3a7387b11e88cd5a9ae69f113.webp": {
+    "mtime": 1794411625.4275916,
+    "seen": 1794412132.17819,
+    "ast_hash": "923da3b69ab833dd01a299216b7c69a4",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/503d7dda14a15629f38f173d3b7bc1f8.jpg": {
+    "mtime": 1794411625.4327683,
+    "seen": 1794412132.1781912,
+    "ast_hash": "0c2be06a38f67637b592dec73126394b",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/51eaf7ffd2f1bafa99df69451e07df0a.webp": {
+    "mtime": 1794411625.4282842,
+    "seen": 1794412132.1781912,
+    "ast_hash": "0935e92be46d3af2b8c7709c5e9a47bf",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/79b895b4b2be2a8a219f1a66e5324141.jpg": {
+    "mtime": 1794411625.4332461,
+    "seen": 1794412132.178192,
+    "ast_hash": "e4e71ffc9bfc7d32d9567ade0a266726",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/7cf217285955275276f5fdc156b4a340.jpg": {
+    "mtime": 1794411625.4265003,
+    "seen": 1794412132.1781929,
+    "ast_hash": "7668f9f24a086f687279f5ace9e75e7e",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/86ab480b8028358c6734a827ba75a3c8.jpg": {
+    "mtime": 1794411625.4299579,
+    "seen": 1794412132.1781929,
+    "ast_hash": "d7af0f2d3502d079d83f72fbd1dd8edb",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/96638c1641cb71cf408e661499b718ea.webp": {
+    "mtime": 1794411625.4323037,
+    "seen": 1794412132.1781938,
+    "ast_hash": "4ad554a5181b6fc549227ba1efe64d6f",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/9c4821fe46bf25acf2969b8f55a188a1.jpg": {
+    "mtime": 1794411625.4255035,
+    "seen": 1794412132.178195,
+    "ast_hash": "80aec6d1e5c8fd4d22c0867d6b919d74",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/a6502bace73ef4d7b0c93f65692d7a18.webp": {
+    "mtime": 1794411625.426982,
+    "seen": 1794412132.178196,
+    "ast_hash": "9044f1f5fa6f811335857a66a900fdc2",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/ac83f5d00892a57ba722cfdd0085b815.jpg": {
+    "mtime": 1794411625.433621,
+    "seen": 1794412132.178196,
+    "ast_hash": "3dd10ce7941ec2bf1e71e16ebfcea195",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/b5144ee0141580f5ecbfc3b4b36371bc.webp": {
+    "mtime": 1794411625.4360445,
+    "seen": 1794412132.178197,
+    "ast_hash": "435f226dcb4827885baf0f33cd17d3a6",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/d4009dda8610c8c0d5c38916f47f85c2.jpg": {
+    "mtime": 1794411625.4289134,
+    "seen": 1794412132.178198,
+    "ast_hash": "4f2630b1b5929f9af35e9d8ef93a6d85",
+    "semantic_hash": ""
+  },
+  "backgrounds/satanic/efbc207722ed5ff6ad604f17f5f56e4c.jpg": {
+    "mtime": 1794411625.4340367,
+    "seen": 1794412132.178199,
+    "ast_hash": "0f40644d9267bc5e92fb4b9248090157",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/harven.jpg": {
+    "mtime": 1794411625.628533,
+    "seen": 1794412132.178122,
+    "ast_hash": "0d0f413878128f7c54cd4df36662a935",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/jerdehl.jpg": {
+    "mtime": 1794411625.592887,
+    "seen": 1794412132.178126,
+    "ast_hash": "52b1ef59ccc763b83bdd4f6a1580bd84",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/kranvoc.jpg": {
+    "mtime": 1794411625.6086433,
+    "seen": 1794412132.178127,
+    "ast_hash": "454a40f50da0ed29ebd4b54fcc195e26",
+    "semantic_hash": ""
+  },
+  "assets/images/sigils/vharmon.jpg": {
+    "mtime": 1794411625.6294737,
+    "seen": 1794412132.178155,
+    "ast_hash": "2eee7a402f156754351670743e0035c1",
+    "semantic_hash": ""
+  },
+  "android/app/build.gradle": {
+    "mtime": 1794411750.5919955,
+    "seen": 1794412132.1780028,
+    "ast_hash": "dcf230dae290a47bb252ac5916fb523e",
+    "semantic_hash": ""
+  },
+  "android/app/capacitor.build.gradle": {
+    "mtime": 1794411625.498601,
+    "seen": 1794412132.1780071,
+    "ast_hash": "b863e425fbde80251bd3c68ac8ccba02",
+    "semantic_hash": ""
+  },
+  "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java": {
+    "mtime": 1794411625.4998786,
+    "seen": 1794412132.178009,
+    "ast_hash": "fbaf7cc870c663eb52dcf218531c439d",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/java/com/mcpos/magickai/MainActivity.java": {
+    "mtime": 1794411625.527955,
+    "seen": 1794412132.1780102,
+    "ast_hash": "8da5bac84f750681d46880d1d0c8b9cb",
+    "semantic_hash": ""
+  },
+  "android/app/src/test/java/com/getcapacitor/myapp/ExampleUnitTest.java": {
+    "mtime": 1794411625.5010061,
+    "seen": 1794412132.1780102,
+    "ast_hash": "e91b4501c14da821682fa5c26a16d616",
+    "semantic_hash": ""
+  },
+  "android/build.gradle": {
+    "mtime": 1794411625.5298493,
+    "seen": 1794412132.178011,
+    "ast_hash": "904fb1d31a1cc2d64262413548e6f540",
+    "semantic_hash": ""
+  },
+  "android/capacitor.settings.gradle": {
+    "mtime": 1794411625.4972074,
+    "seen": 1794412132.178012,
+    "ast_hash": "455ebb7f9fe84a6974da6bdae43097c2",
+    "semantic_hash": ""
+  },
+  "android/gradlew": {
+    "mtime": 1794411625.5294015,
+    "seen": 1794412132.1780128,
+    "ast_hash": "794669d78aef1dd5c7d889ef618b311a",
+    "semantic_hash": ""
+  },
+  "android/settings.gradle": {
+    "mtime": 1794411625.5304608,
+    "seen": 1794412132.178014,
+    "ast_hash": "f6cd925b3f859e23c3d819fe2459e0e4",
+    "semantic_hash": ""
+  },
+  "android/variables.gradle": {
+    "mtime": 1794411625.528191,
+    "seen": 1794412132.178015,
+    "ast_hash": "4b3fce8ea2a515a9d2e47e74757172ec",
+    "semantic_hash": ""
+  },
+  "assets/js/vendor/gsap.min.js": {
+    "mtime": 1794411625.6358743,
+    "seen": 1794412132.1780229,
+    "ast_hash": "448deef673e4d919eb5592410f72533e",
+    "semantic_hash": ""
+  },
+  "assets/js/vendor/lucide.min.js": {
+    "mtime": 1794411625.6370242,
+    "seen": 1794412132.178024,
+    "ast_hash": "f66517b1c8b9bdce52080327a041f76f",
+    "semantic_hash": ""
+  },
+  "assets/js/vendor/tailwindcss.js": {
+    "mtime": 1794411625.6364918,
+    "seen": 1794412132.178024,
+    "ast_hash": "7a614b9a197e532c00d09a23b0996b5f",
+    "semantic_hash": ""
+  },
+  "capacitor.config.json": {
+    "mtime": 1794411674.5633044,
+    "seen": 1794412132.178025,
+    "ast_hash": "24691e177f357ca86bc227b9fc127cc4",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1794411697.7162309,
+    "seen": 1794412132.178026,
+    "ast_hash": "f56b3680af3d7e13f1487b4298d65f88",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-hdpi/splash.png": {
+    "mtime": 1794411625.520978,
+    "seen": 1794412132.1780322,
+    "ast_hash": "f7a80786dd355bd39014e58027aa6e19",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-mdpi/splash.png": {
+    "mtime": 1794411625.5205727,
+    "seen": 1794412132.1780329,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xhdpi/splash.png": {
+    "mtime": 1794411625.5059924,
+    "seen": 1794412132.1780338,
+    "ast_hash": "b8c72969bc1f78aab71a76035360d4af",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxhdpi/splash.png": {
+    "mtime": 1794411625.5215676,
+    "seen": 1794412132.178035,
+    "ast_hash": "f87e988387b07d843905f38b084929fb",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-land-xxxhdpi/splash.png": {
+    "mtime": 1794411625.525489,
+    "seen": 1794412132.178036,
+    "ast_hash": "055a69553b16b0bf5f72094a2e459fc7",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-hdpi/splash.png": {
+    "mtime": 1794411625.5139825,
+    "seen": 1794412132.178036,
+    "ast_hash": "5eb10d16c81338abe8bbc033d49638a8",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-mdpi/splash.png": {
+    "mtime": 1794411625.520188,
+    "seen": 1794412132.178037,
+    "ast_hash": "d855a76a5070c8e6fcfd83a27549bdce",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xhdpi/splash.png": {
+    "mtime": 1794411625.5248356,
+    "seen": 1794412132.1780381,
+    "ast_hash": "df100b2a36bdb98b711cca58941728de",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxhdpi/splash.png": {
+    "mtime": 1794411625.5233479,
+    "seen": 1794412132.178039,
+    "ast_hash": "2c1b668364e815256f67b71dcdfa4d6e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable-port-xxxhdpi/splash.png": {
+    "mtime": 1794411625.5039375,
+    "seen": 1794412132.17804,
+    "ast_hash": "b5b1b22b59abe686c1df0d74a423d034",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/drawable/splash.png": {
+    "mtime": 1794411625.5067277,
+    "seen": 1794412132.178041,
+    "ast_hash": "acc976d4a36479233371a53021525c0c",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
+    "mtime": 1794411625.505013,
+    "seen": 1794412132.178041,
+    "ast_hash": "14763337bea265475ac18d847456afdc",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png": {
+    "mtime": 1794411625.5046685,
+    "seen": 1794412132.1780422,
+    "ast_hash": "aa7ac6acabddb13e990eb9eb64d1272b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png": {
+    "mtime": 1794411625.5054312,
+    "seen": 1794412132.178043,
+    "ast_hash": "85ab90d686df475115c03078b21d95f3",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
+    "mtime": 1794411625.502678,
+    "seen": 1794412132.1780438,
+    "ast_hash": "5a9d87f90445c0974c4325732affcde4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png": {
+    "mtime": 1794411625.5023673,
+    "seen": 1794412132.1780438,
+    "ast_hash": "856b3369f2f9c16ec0532d13eb9e1d9e",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png": {
+    "mtime": 1794411625.5030615,
+    "seen": 1794412132.178045,
+    "ast_hash": "a7330a8bbdb15433e823f6f3e9f2b35a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
+    "mtime": 1794411625.5223505,
+    "seen": 1794412132.178046,
+    "ast_hash": "d11d397d7340d3e5f91b2bd1738e662a",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png": {
+    "mtime": 1794411625.522002,
+    "seen": 1794412132.178046,
+    "ast_hash": "ae907f675d963be820f1c46613d7263b",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png": {
+    "mtime": 1794411625.5227087,
+    "seen": 1794412132.178047,
+    "ast_hash": "900f230b2e436186913162e9fa1e4c08",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
+    "mtime": 1794411625.5132217,
+    "seen": 1794412132.178048,
+    "ast_hash": "c354b2442d07b3cf36cb33c13847afdd",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1794411625.5129344,
+    "seen": 1794412132.178049,
+    "ast_hash": "280231385ebb6a2f69688db7a74fc4f4",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png": {
+    "mtime": 1794411625.5134797,
+    "seen": 1794412132.17805,
+    "ast_hash": "ad1e204513891c90eda2e9d2fbf052ea",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
+    "mtime": 1794411625.5100656,
+    "seen": 1794412132.178051,
+    "ast_hash": "bd5185bba039d224e0a72b1fd1ce6941",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png": {
+    "mtime": 1794411625.5097344,
+    "seen": 1794412132.178051,
+    "ast_hash": "1de1553ae6f024d7fdfd41bcd7cb6f60",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png": {
+    "mtime": 1794411625.5105112,
+    "seen": 1794412132.1780522,
+    "ast_hash": "63ca154f647c05a6bc2dc8263246f207",
+    "semantic_hash": ""
+  },
+  "assets/img/icon.png": {
+    "mtime": 1794411625.6378503,
+    "seen": 1794412132.178158,
+    "ast_hash": "63ca154f647c05a6bc2dc8263246f207",
+    "semantic_hash": ""
+  },
+  "assets/js/demo_showcase.js": {
+    "mtime": 1794411861.171817,
+    "seen": 1794412132.17802,
+    "ast_hash": "53d2b7d7717ea3b3a8b604dd0540d163",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1794412100.1125405,
+    "seen": 1794412132.178027,
+    "ast_hash": "6f9ae968cc597008b136d4604c37f8ef",
+    "semantic_hash": ""
+  }
+}

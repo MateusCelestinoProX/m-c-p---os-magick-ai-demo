@@ -1,0 +1,15 @@
+{
+  "name": "mcpos-magick-ai-demo",
+  "version": "1.0.0",
+  "description": "MAGICK A.I (Interactive Showcase Demo) - Altar & Templo Digital de Magia do Caos (Web SPA & Android Capacitor)",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r index.html assets backgrounds dist",
+    "android:sync": "bun run build && bunx cap sync android",
+    "android:build": "bun run android:sync && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  }
+}

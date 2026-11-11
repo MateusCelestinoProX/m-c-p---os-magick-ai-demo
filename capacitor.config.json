@@ -1,0 +1,8 @@
+{
+  "appId": "com.mcpos.magickai.demo",
+  "appName": "MAGICK A.I Demo",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

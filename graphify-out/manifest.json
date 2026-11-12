@@ -48,9 +48,9 @@
     "semantic_hash": ""
   },
   "vercel.json": {
-    "mtime": 1794411625.4212165,
-    "seen": 1794412132.178027,
-    "ast_hash": "6adbb4e299536cf1cc39df736698e251",
+    "mtime": 1794495918.9400644,
+    "seen": 1794495942.165762,
+    "ast_hash": "db1b3f2486994705419db0d857f7bcc8",
     "semantic_hash": ""
   },
   "findings.md": {
@@ -1386,9 +1386,9 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1794411697.7162309,
-    "seen": 1794412132.178026,
-    "ast_hash": "f56b3680af3d7e13f1487b4298d65f88",
+    "mtime": 1794495901.7845325,
+    "seen": 1794495942.16576,
+    "ast_hash": "e78b23c9b9895678f84fa9a92fd66fcc",
     "semantic_hash": ""
   },
   "android/app/src/main/res/drawable-land-hdpi/splash.png": {

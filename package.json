@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "MAGICK A.I (Interactive Showcase Demo) - Altar & Templo Digital de Magia do Caos (Web SPA & Android Capacitor)",
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist && cp -r index.html assets backgrounds dist",
+    "build": "rm -rf dist && mkdir -p dist && cp -r index.html assets backgrounds favicon.ico dist",
     "android:sync": "bun run build && bunx cap sync android",
     "android:build": "bun run android:sync && cd android && ./gradlew assembleDebug"
   },

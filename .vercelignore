@@ -1,0 +1,25 @@
+# Controle de versão
+.git
+.gitignore
+
+# Android Nativo (Compilação isolada local)
+android/
+*.apk
+*.aab
+.gradle/
+
+# Documentação interna de desenvolvimento
+findings.md
+progress.md
+task_plan.md
+gemini.md
+graphify-out/
+
+# Dependências e caches
+node_modules/
+bun.lock
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

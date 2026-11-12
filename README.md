@@ -3,11 +3,16 @@
 # ✶ MAGICK A.I — INTERACTIVE SHOWCASE DEMO ✶
 ### *Altar & Templo Digital de Magia do Caos • Software Portfolio Edition*
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel%20Production-000000?style=for-the-badge&logo=vercel)](https://m-c-p-os-magick-ai-demo.vercel.app)
 [![Platform: Web SPA & Android](https://img.shields.io/badge/Platform-Web%20SPA%20%7C%20Android%20Capacitor-ff0033?style=for-the-badge&logo=android)](https://github.com/MateusCelestinoProX/m-c-p---os-magick-ai-demo)
 [![Engine: GSAP 3D](https://img.shields.io/badge/3D%20Engine-GSAP%20Physics-ff5500?style=for-the-badge)](https://greensock.com)
 [![Graphics: WebGL Shaders](https://img.shields.io/badge/Graphics-WebGL%20Canvas%20Shaders-ffcc00?style=for-the-badge)](https://github.com/MateusCelestinoProX/m-c-p---os-magick-ai-demo)
 [![Sound: Web Audio 528Hz](https://img.shields.io/badge/Audio-528Hz%20Harmonics-a855f7?style=for-the-badge)](https://github.com/MateusCelestinoProX/m-c-p---os-magick-ai-demo)
 [![Data: Mock Clean](https://img.shields.io/badge/Privacy-100%25%20Mock%20Clean-00ff66?style=for-the-badge)](https://github.com/MateusCelestinoProX/m-c-p---os-magick-ai-demo)
+
+<p align="center">
+  🌐 <strong>Acesse a Demonstração ao Vivo:</strong> <a href="https://m-c-p-os-magick-ai-demo.vercel.app">https://m-c-p-os-magick-ai-demo.vercel.app</a>
+</p>
 
 <p align="center">
   <strong>Uma experiência interativa de software concebida para demonstrar engenharia frontend avançada, aceleração gráfica 3D, física de cartas oraculares, shaders WebGL reativos e empacotamento nativo multiplataforma.</strong>

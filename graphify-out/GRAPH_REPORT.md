@@ -1,7 +1,7 @@
 # Graph Report - m-c-p---os-magick-ai-demo  (2026-11-12)
 
 ## Corpus Check
-- 30 files · ~945,607 words
+- 30 files · ~945,620 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `78732468`
+- Built from commit: `0ec5089c`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

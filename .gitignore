@@ -12,3 +12,4 @@ android/build/
 *.log
 graphify-out/cache/ast/
 graphify-out/20*
+.vercel

@@ -9785,7 +9785,7 @@
       "node_kind": "heading",
       "norm_label": "1. \ud83d\udd2e grimorio sagrado dos 44 servidores & diabos",
       "source_file": "README.md",
-      "source_location": "L31"
+      "source_location": "L36"
     },
     {
       "id": "readme_2_energizador_de_sigilos_gnose_transe",
@@ -9797,7 +9797,7 @@
       "node_kind": "heading",
       "norm_label": "2. \u26a1 energizador de sigilos (gnose & transe)",
       "source_file": "README.md",
-      "source_location": "L36"
+      "source_location": "L41"
     },
     {
       "id": "readme_3_cyberdivina\u00e7\u00e3o_oracular_3d",
@@ -9809,7 +9809,7 @@
       "node_kind": "heading",
       "norm_label": "3. \ud83c\udccf cyberdivinacao oracular 3d",
       "source_file": "README.md",
-      "source_location": "L42"
+      "source_location": "L47"
     },
     {
       "id": "readme_4_motor_de_fundo_cinematogr\u00e1fico_din\u00e2mico",
@@ -9821,7 +9821,7 @@
       "node_kind": "heading",
       "norm_label": "4. \ud83c\udfa8 motor de fundo cinematografico dinamico",
       "source_file": "README.md",
-      "source_location": "L51"
+      "source_location": "L56"
     },
     {
       "id": "readme_altar_templo_digital_de_magia_do_caos_software_portfolio_edition",
@@ -9845,7 +9845,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\ude80 como executar a demonstracao",
       "source_file": "README.md",
-      "source_location": "L71"
+      "source_location": "L76"
     },
     {
       "id": "readme_higieniza\u00e7\u00e3o_de_dados_conformidade",
@@ -9857,7 +9857,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udd12 higienizacao de dados & conformidade",
       "source_file": "README.md",
-      "source_location": "L95"
+      "source_location": "L100"
     },
     {
       "id": "readme_magick_a_i_interactive_showcase_demo",
@@ -9881,7 +9881,7 @@
       "node_kind": "heading",
       "norm_label": "\u26a1 modulos & recursos em destaque",
       "source_file": "README.md",
-      "source_location": "L29"
+      "source_location": "L34"
     },
     {
       "id": "readme_op\u00e7\u00e3o_a_executar_diretamente_no_navegador_web_spa",
@@ -9893,7 +9893,7 @@
       "node_kind": "heading",
       "norm_label": "opcao a: executar diretamente no navegador (web spa)",
       "source_file": "README.md",
-      "source_location": "L73"
+      "source_location": "L78"
     },
     {
       "id": "readme_op\u00e7\u00e3o_b_compila\u00e7\u00e3o_do_app_nativo_android",
@@ -9905,7 +9905,7 @@
       "node_kind": "heading",
       "norm_label": "opcao b: compilacao do app nativo android",
       "source_file": "README.md",
-      "source_location": "L84"
+      "source_location": "L89"
     },
     {
       "id": "readme_stack_tecnol\u00f3gico",
@@ -9917,7 +9917,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udee0\ufe0f stack tecnologico",
       "source_file": "README.md",
-      "source_location": "L57"
+      "source_location": "L62"
     },
     {
       "id": "readme_vis\u00e3o_geral_da_demonstra\u00e7\u00e3o",
@@ -9929,7 +9929,7 @@
       "node_kind": "heading",
       "norm_label": "\ud83d\udccc visao geral da demonstracao",
       "source_file": "README.md",
-      "source_location": "L20"
+      "source_location": "L25"
     },
     {
       "id": "package",
@@ -34683,7 +34683,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L78",
       "weight": 1.0
     },
     {
@@ -34694,7 +34694,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L84",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_magick_a_i_interactive_showcase_demo",
+      "target": "readme_higieniza\u00e7\u00e3o_de_dados_conformidade",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L100",
       "weight": 1.0
     },
     {
@@ -34705,7 +34716,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L20",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -34716,7 +34727,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L29",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -34738,7 +34749,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L57",
+      "source_location": "L62",
       "weight": 1.0
     },
     {
@@ -34749,18 +34760,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L71",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_magick_a_i_interactive_showcase_demo",
-      "target": "readme_higieniza\u00e7\u00e3o_de_dados_conformidade",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L95",
+      "source_location": "L76",
       "weight": 1.0
     },
     {
@@ -34771,7 +34771,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L31",
+      "source_location": "L36",
       "weight": 1.0
     },
     {
@@ -34782,7 +34782,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L36",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -34793,7 +34793,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L42",
+      "source_location": "L47",
       "weight": 1.0
     },
     {
@@ -34804,7 +34804,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L51",
+      "source_location": "L56",
       "weight": 1.0
     },
     {
@@ -37406,5 +37406,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "78732468df38426ba8d519957ba515ac3a95fd9b"
+  "built_at_commit": "0ec5089cd2587061807b822492864b1837c75a38"
 }
